@@ -1,0 +1,30 @@
+
+body, html {
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+li {
+    font-size: 10em;
+}
+
+#copy-text {
+    cursor: pointer;
+}
+
+#copy-text:active {
+    background-color: rgb(1, 74, 184) !important;
+}
+
+#empty-box {
+    cursor: pointer;
+    background-color: rgb(252, 1, 1) !important;
+}
+
+#empty-box:active {
+    background-color: rgb(216, 0, 0) !important;
+}
